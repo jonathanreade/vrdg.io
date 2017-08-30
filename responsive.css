@@ -1,0 +1,78 @@
+@media (max-width: 70em) {
+
+  body {
+    margin-left: 0;
+  }
+
+  main {
+    margin-top: 5vh;
+    width: 74.8vw;
+    height: 100vh;
+  }
+
+  iframe {
+    width: 35vw;
+    height: 400px;
+    margin-top: 20vh;
+    margin-left: 1vw;
+    display: block;
+  }
+
+  .demoWindow {
+    width: 35vw;
+    margin-top: 0px;
+    margin-bottom: 10vh;
+  }
+
+  .demoWindow h2 {
+    display: block;
+    margin-top: 2vh;
+    float: left
+  }
+
+  .demoWindow p {
+    display: block;
+    margin-top: 0vh;
+    float: left;
+  }
+
+  #submit {
+    width: 75vw;
+  }
+
+  input, textarea {
+    width: 60vw;
+  }
+
+}
+
+@media (max-width: 35em) {
+
+  .demoWindow {
+    width: 74vw;
+    margin-left: 0;
+  }
+
+  iframe {
+    width: 74vw;
+  }
+
+  #jumpMenu {
+    margin-left: 0;
+    margin-top: 90px;
+  }
+
+  #jumpMenu a {
+    display: inline;
+    margin-right: 5vw;
+    font-size: 2em;
+  }
+
+  header {
+    background-color: white;
+  }
+
+  input, textarea {
+    width: 75vw;
+  }
+}

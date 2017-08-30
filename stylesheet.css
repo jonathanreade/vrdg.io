@@ -1,0 +1,130 @@
+@font-face {
+    font-family: pier;
+    src: url(Gotham_Rounded_Book.otf)  format("opentype");
+}
+
+main {
+  margin-left: 12vw;
+  margin-top: 12vh;
+  margin-right: 12vw;
+}
+
+body {
+  font-family: pier;
+  color: rgb(50, 50, 50);
+}
+
+iframe {
+  width: 20vw;
+  height: 400px;
+  border: 0;
+  float: left;
+  margin-right: 2vw;
+}
+
+a h1 {
+  display: inline;
+  color: rgb(50, 50, 50);
+}
+
+a {
+  text-decoration: none;
+}
+
+#submit {
+  margin-top: 8vh;
+}
+
+#links {
+  margin-top: 2vh;
+  display: inline;
+  float: right;
+}
+
+#links a {
+  margin-left: 2vw;
+  color: rgb(50, 50, 50);
+  font-weight: bold;
+}
+
+#introHome {
+  font-size: 3.5em;
+  width: 40vw;
+  margin-top: 13vh;
+}
+
+#jumpMenu {
+  position: fixed;
+  margin-top: 135px;
+  margin-left: 8vw;
+}
+
+#jumpMenu a {
+  display: block;
+  margin-bottom: 5vh;
+  font-size: 3em;
+  color: rgb(50, 50, 50);
+}
+
+#jumpMenu a:visited {
+  color: rgb(43, 43, 43);
+}
+
+a {
+  color: blue;
+}
+
+#line {
+  width: 5px;
+  height: 30vh;
+  background-color: rgb(43, 43, 43);
+  display: inline;
+}
+
+header {
+  position: fixed;
+  width: 75vw;
+  margin-top: -80px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  background-color: transparent;
+}
+
+.demoWindow {
+  width: 42vw;
+  float: left;
+  margin-top: 135px;
+  margin-bottom: 10vh;
+  margin-left: 17vw;
+}
+
+.demoWindow h2 {
+  margin-top: 0vh;
+}
+
+h3 {
+  color: rgb(108, 108, 108);
+}
+
+input, textarea {
+width: 40vw;
+padding: 6px 10px;
+box-sizing: border-box;
+margin-top: 10px;
+/*border: 3px solid #ccc;*/
+border: none;
+border-radius: 20px;
+background-color: #EFEFEF;
+-webkit-transition: 0.5s;
+transition: 0.5s;
+outline: none;
+font-size: 1em;
+}
+
+input[type=submit] {
+  text-align: left;
+  color: rgb(100, 100, 100);
+  padding-left: 25px;
+  padding-right: 25px;
+  width: auto;
+}
